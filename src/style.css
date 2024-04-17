@@ -1,0 +1,67 @@
+/* style.css */
+
+/* Change the font */
+body {
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+}
+
+/* Add other styles as before */
+/* Style for game board rows */
+.board-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the game board container */
+.board-container {
+    margin: 20px auto;
+    max-width: 300px; /* Adjust as needed */
+    border: 2px solid #333; /* Border color for the game board */
+    padding: 10px;
+    background-color: #fff; /* White background color for the game board */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+}
+
+/* Style for individual squares */
+.square {
+    width: 80px; /* Adjust as needed */
+    height: 80px; /* Adjust as needed */
+    border: 1px solid #ccc; /* Border color for squares */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Light gray background color for squares */
+    cursor: pointer;
+}
+
+/* Style for text inside squares */
+.square h5 {
+    margin: 0;
+    font-size: 24px; /* Adjust as needed */
+}
+
+/* Style for X player's turn */
+.square.x-turn {
+    color: #007bff; /* Blue color for X player's turn */
+}
+
+/* Style for O player's turn */
+.square.o-turn {
+    color: #dc3545; /* Red color for O player's turn */
+}
+
+/* style.css */
+
+/* Style for the entire application container */
+.app-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a99b9b; /* Light gray background color */
+}
+  
+  /* Style for the game area */
